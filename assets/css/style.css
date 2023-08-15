@@ -360,13 +360,13 @@ html, body {
     opacity: 1;
 }
 
-/* Section: Services */
-.section-services {
+/* Section: Skills */
+.section-skills {
     position: relative;
     padding-top: 220px;
 }
 
-.section-services:before {
+.section-skills:before {
     content: '';
     background: url(../img/bg/skill-bg.jpg) no-repeat fixed center / cover;
     width: 100%;
@@ -387,7 +387,7 @@ html, body {
     z-index: 0;
 }
 
-.section-services .container {
+.section-skills .container {
     padding: 120px 100px;
     position: relative;
     background-color: #fff;
@@ -502,6 +502,22 @@ html, body {
     margin-right: 30px;
     margin-bottom: 200px;
     height: 100px;;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.project-skill {
+    font-size: 15px;
+    margin-top: 3px;
+    color: #D7A92E;
+}
+
+.project-description {
+    font-size: 15px;
+    margin-top: 10px;
+    color: #666666;
 }
 
 /* Modal */
